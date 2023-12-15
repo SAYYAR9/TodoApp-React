@@ -1,0 +1,13 @@
+.Todo{
+    display: flex;
+    padding: 16px;
+    gap: 12px;
+    .checkbox-div {
+        display: flex;
+        width: 24px;
+        height: 24px;
+        padding: 3.273px;
+        justify-content: center;
+        align-items: center;
+    }
+}
