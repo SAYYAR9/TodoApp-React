@@ -9,8 +9,8 @@ function Todo() {
             <div className='checkbox-div'>
             <CheckBox/>
             </div>
-            <div className="content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div className="content content-checked ">
+            Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.
             </div>
             <div className="trash-div">
                 <img src={removeImage} alt="remove" />

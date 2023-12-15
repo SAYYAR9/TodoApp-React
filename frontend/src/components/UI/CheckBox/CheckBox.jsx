@@ -1,11 +1,12 @@
 import './CheckBox.scss'
-import checked from '../../../assets/checked.png'
+import checkedImage from '../../../assets/checked.png'
 
 function CheckBox() {
     
     return (
-        <div className='ChceckBox'>
-            <img src={checked} alt="checked"/></div>
+        <div className='CheckBox CheckBox-checked'>
+            <img className='checked-icon' src={checkedImage} alt="checked"/>
+            </div>
     )
 }
 
