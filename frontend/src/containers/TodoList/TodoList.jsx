@@ -9,7 +9,7 @@ function TodoList() {
         <Fragment>
             <TodoListTitle/>
             <div>
-                <Todo/>
+                <Todo completed={true}/>
             </div>
 
         </Fragment>

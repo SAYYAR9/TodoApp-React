@@ -3,13 +3,13 @@ import './Todo.scss'
 import removeImage  from "../../assets/Trash.png";
 
 
-function Todo() {
+function Todo({completed}) {
     return(
         <div className='Todo'>
             <div className='checkbox-div'>
-            <CheckBox/>
+            <CheckBox completed={completed} />
             </div>
-            <div className="content content-checked ">
+            <div className={'content ' + (completed ? 'content-checked' : '')}>
             Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.
             </div>
             <div className="trash-div">

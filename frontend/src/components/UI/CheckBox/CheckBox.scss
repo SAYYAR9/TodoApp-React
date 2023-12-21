@@ -13,12 +13,11 @@
         left: 50%;
         transform: translate(-50% , -50%);
     }
-    
-    &-checked{
-        @extend .CheckBox;
-        border: 2px solid #5E60CE;
-        background-color: #5E60CE;
-        .checked-icon{
+    &-checked {
+        background: #5E60CE;
+        border: 2px solid #5E60CE;    
+
+        .checked-icon { 
             display: block;
         }
     }
